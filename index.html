@@ -20,6 +20,253 @@
     <div class="container">
       <br />
       <header class="header">
+        <div
+          class="modal fade"
+          id="exampleModalToggle"
+          aria-hidden="true"
+          aria-labelledby="exampleModalToggleLabel"
+          tabindex="-1"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">
+                  Step 1
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div
+                  class="alert alert-primary d-flex align-items-center w-auto"
+                  role="alert"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-info-circle-fill flex-shrink-0 me-2"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm.93 4.418a.533.533 0 1 1-1.065 0 .533.533 0 0 1 1.065 0zm.448 7.482c0 .607-.403 1.1-.926 1.1h-.508c-.523 0-.926-.493-.926-1.1V8.885c0-.607.403-1.1.926-1.1h.508c.523 0 .926.493.926 1.1v3.015z"
+                    />
+                  </svg>
+                  <div>Sizning ma'lumotlaringiz 3-shaxsga berilmaydi!</div>
+                </div>
+                <div class="row g-3">
+                  <div class="col-6">
+                    <label for="validationCustom01" class="form-label"
+                      >First name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="validationCustom01"
+                      value="Mark"
+                      required=""
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                  </div>
+                  <div class="col-6">
+                    <label for="validationCustom02" class="form-label"
+                      >Last name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="validationCustom02"
+                      value="Otto"
+                      required=""
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Cancel
+                </button>
+
+                <button
+                  class="btn btn-primary"
+                  data-bs-target="#exampleModalToggle2"
+                  data-bs-toggle="modal"
+                >
+                  Continue
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="exampleModalToggle2"
+          aria-hidden="true"
+          aria-labelledby="exampleModalToggleLabel2"
+          tabindex="-1"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">
+                  Step 2
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="row g-3">
+                  <div class="col-6">
+                    <label for="validationCustom01" class="form-label"
+                      >Email</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="validationCustom01"
+                      value="tylertheunknownss@gmail.com"
+                      required=""
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                  </div>
+                  <div class="col-6">
+                    <label for="validationCustom02" class="form-label"
+                      >Password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="validationCustom02"
+                      value="A$2f5-42B"
+                      required=""
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Cancel
+                </button>
+                <button
+                  class="btn btn-primary"
+                  data-bs-target="#exampleModalToggle3"
+                  data-bs-toggle="modal"
+                >
+                  Continue
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="exampleModalToggle3"
+          aria-hidden="true"
+          aria-labelledby="exampleModalToggleLabel3"
+          tabindex="-2"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">
+                  Step 3
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div
+                  class="alert alert-warning d-flex align-items-center w-auto"
+                  role="alert"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2"
+                    viewBox="0 0 16 16"
+                    role="img"
+                    aria-label="Warning:"
+                  >
+                    <path
+                      d="M8.982 1.566a1.13 1.13 0 0 0-1.964 0L.165 13.233c-.457.778.091 1.767.982 1.767h13.706c.89 0 1.439-.99.982-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1-2.002 0 1 1 0 0 1 2.002 0z"
+                    />
+                  </svg>
+                  <div>
+                    Agar o'zgarishlarni saqlamasangiz ular o'chib ketishi
+                    mumkin!
+                  </div>
+                </div>
+
+                <div class="row g-3">
+                  <div class="col-6">
+                    <label for="validationCustom01" class="form-label"
+                      >Enter new password</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="validationCustom01"
+                      value=""
+                      required=""
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                  </div>
+                  <div class="col-6">
+                    <label for="validationCustom02" class="form-label"
+                      >Confirm new password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="validationCustom02"
+                      value=""
+                      required=""
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-success">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
         <nav class="navbar navbar-expand-lg bg-body-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"
@@ -74,8 +321,13 @@
                 </li>
               </ul>
               <form class="d-flex gap-4" role="search">
-                <i class="bi bi-search fs-4"></i>
-                <i class="bi bi-cart fs-4"></i>
+                <i class="bi bi-search mt-2 fs-4"></i>
+                <button
+                type="button"
+                  class="btn btn-ligh fs-3"
+                  data-bs-target="#exampleModalToggle"
+                  data-bs-toggle="modal"
+                > <i class="bi bi-person"></i></button>
               </form>
             </div>
           </div>
@@ -147,13 +399,13 @@
               >
                 <div class="col-md-6 text-center text-md-start">
                   <h2>
-                    This phones change the world <i class="bi bi-globe"></i>
+                    This phones change the world with POWER
+                    <i class="bi bi-lightning-fill"></i>
                     <br />
                   </h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Scelerisque in est dui, aliquam tempor. Faucibus morbi
-                    turpis. sque in est dui, aliquam tempor. Faucibus morbi
                     turpis.
                   </p>
                 </div>
@@ -406,15 +658,86 @@
         </section>
         <section class="ideas mt-5 mb-5">
           <h1 class="text-center">Ideas have a place here</h1>
-          <p class="text-center mb-4">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
+          <p class="text-center mb-4">
+            Our new Limited Edition Winter Design BESPOKE 4-Door Flex™
+          </p>
           <div class="ideas__wrapper d-flex flex-xl-row flex-column gap-4">
-            <img src="./assets/IMAGE (11).png" alt="">
-            <div class="ideas__second d-flex flex-column justify-content-between">
-              <h2>We Make It Easy To Find The Great Design Talent, Easier...</h2>
-              <h2>Road Design Handbook For The International Road...</h2>
-              <h2>The Best Kept Secrets About Creative People</h2>
-              <h2>We Make It Easy To Find The Great Design Talent, Easier...</h2>
+            <img src="./assets/IMAGE (11).png" alt="" />
+            <div
+              class="ideas__second d-flex flex-column justify-content-between"
+            >
+              <h2 class="mb-4 mb-xl-0">
+                We Make It Easy To Find The Great Design Talent, Easier...
+              </h2>
+              <h2 class="mb-4 mb-xl-0">
+                Road Design Handbook For The International Road...
+              </h2>
+              <h2 class="mb-4 mb-xl-0">
+                The Best Kept Secrets About Creative People
+              </h2>
+              <h2 class="mb-4 mb-xl-0">
+                We Make It Easy To Find The Great Design Talent, Easier...
+              </h2>
             </div>
+          </div>
+        </section>
+        <section class="look mt-5">
+          <h1 class="text-center mt-5">Looking for anything else?</h1>
+          <div class="input__wrapper mx-auto">
+            <input
+              type="text"
+              placeholder="Search keyword"
+              class="w-100 d-block search__input mx-auto rounded-5 look__img mt-4 border-2 border-dark p-2"
+            />
+          </div>
+          <div
+            class="filter__wrapper mx-auto w-75 d-flex justify-content-center gap-2 flex-wrap mt-4"
+          >
+            <button
+              class="border-2 border-secondary rounded-5 pe-4 ps-4 pt-2 pb-2 border-secondary bg-light"
+            >
+              iPhone
+            </button>
+            <button
+              class="border-2 border-dark rounded-5 pe-4 ps-4 pt-2 pb-2 border-secondary bg-light"
+            >
+              Charger
+            </button>
+            <button
+              class="border-2 border-dark rounded-5 pe-4 ps-4 pt-2 pb-2 border-secondary bg-light"
+            >
+              Gift
+            </button>
+            <button
+              class="border-2 border-dark rounded-5 pe-4 ps-4 pt-2 pb-2 border-secondary bg-light"
+            >
+              Google Pixel 3
+            </button>
+            <button
+              class="border-2 border-dark rounded-5 pe-4 ps-4 pt-2 pb-2 border-secondary bg-light"
+            >
+              Keyboard
+            </button>
+            <button
+              class="border-2 border-dark rounded-5 pe-4 ps-4 pt-2 pb-2 border-secondary bg-light"
+            >
+              13 Pro Max
+            </button>
+            <button
+              class="border-2 border-dark rounded-5 pe-4 ps-4 pt-2 pb-2 border-secondary bg-light"
+            >
+              iPhone 12
+            </button>
+            <button
+              class="border-2 border-dark rounded-5 pe-4 ps-4 pt-2 pb-2 border-secondary bg-light"
+            >
+              Laptop
+            </button>
+            <button
+              class="border-2 border-dark rounded-5 pe-4 ps-4 pt-2 pb-2 border-secondary bg-light"
+            >
+              Mobile
+            </button>
           </div>
         </section>
       </div>
